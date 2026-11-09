@@ -1,0 +1,6 @@
+interface:
+  display_name: "星璃写真"
+  short_description: "依次选择星璃写真场景主题与情绪，再审阅完整提示词，确认后生成图片"
+  default_prompt: "使用 $starli，让我依次选择场景主题和情绪，再展示完整提示词，等我确认后生成。"
+policy:
+  allow_implicit_invocation: true

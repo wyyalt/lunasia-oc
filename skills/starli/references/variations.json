@@ -1,0 +1,28 @@
+{
+  "moods": [
+    {"id":"cool","label":"清冷","expression":"平静直视、嘴唇自然闭合、下颌微抬，不皱眉"},
+    {"id":"playful","label":"俏皮","expression":"一侧眉梢轻扬、嘴角不对称上扬，或自然眨眼"},
+    {"id":"shy","label":"害羞","expression":"视线略偏、淡淡红晕、含蓄抿唇"},
+    {"id":"mysterious","label":"神秘","expression":"目光沉静、眼睑微垂、嘴角若有若无"},
+    {"id":"happy","label":"开心","expression":"笑眼弯起、面颊抬起、自然露齿笑"},
+    {"id":"healing","label":"治愈","expression":"眼神舒展柔和、轻微闭唇浅笑、肩颈放松"},
+    {"id":"curious","label":"好奇","expression":"眼睛略睁大、眉梢轻抬、头微偏"}
+  ],
+  "actions": [
+    {"id":"tuck-hair","detail":"一手将耳边发丝轻拢到耳后","moods":["shy","healing","cool"]},
+    {"id":"pendant","detail":"指尖轻扶锁骨旁的星形吊坠","moods":["cool","mysterious","shy"]},
+    {"id":"wave","detail":"一手在肩旁小幅自然挥手","moods":["happy","playful","healing"]},
+    {"id":"peace","detail":"一手在脸旁比小小的 V，不遮住面部","moods":["playful","happy"]},
+    {"id":"rest-hands","detail":"双手在画面下方自然交叠，肩颈放松","moods":["cool","mysterious","healing","shy"]},
+    {"id":"hair-lock","detail":"轻轻捻起肩旁一小束头发","moods":["playful","shy","curious"]},
+    {"id":"butterfly","detail":"抬起食指，让一只小淡紫蝴蝶停在指尖","moods":["curious","happy","healing"]},
+    {"id":"open-palm","detail":"一只手在胸前自然摊开掌心，手指放松","moods":["healing","curious","mysterious"]}
+  ],
+  "orientations": [
+    {"id":"front","weight":50,"detail":"躯干和面部朝向镜头，双肩可见，可轻微歪头"},
+    {"id":"slight-left","weight":20,"detail":"躯干轻微左转约15至25度，面部近正面"},
+    {"id":"slight-right","weight":20,"detail":"躯干轻微右转约15至25度，面部近正面"},
+    {"id":"side","weight":5,"detail":"自然侧身，保持面部可辨"},
+    {"id":"look-back","weight":5,"detail":"轻微回眸，肩颈姿态自然"}
+  ]
+}
