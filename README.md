@@ -117,3 +117,7 @@
 - [原始参考图 01](assets/xingli-original.jpg)
 - [原始参考图 02](assets/xingli-original-02.jpg)
 - [星梦弦三形态设定图](assets/xingmengxian-forms-original.jpg)
+
+## 星璃写真
+
+[全身写真](assets/xingli-full-body-2026-11-09.png)于 2026 年 11 月 9 日以原始参考图 01 为基础生成，延展了裙摆和鞋饰。
